@@ -1,0 +1,5 @@
+tf_gpu_env/
+dataset/
+*.h5
+*.npy
+*.pkl
