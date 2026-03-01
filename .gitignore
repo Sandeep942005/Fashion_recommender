@@ -1,5 +1,31 @@
-tf_gpu_env/
+# ---------------- VIRTUAL ENV ----------------
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ---------------- DATASET ----------------
 dataset/
+
+# ---------------- MODEL FILES ----------------
 *.h5
-*.npy
 *.pkl
+*.npy
+
+# ---------------- JUPYTER ----------------
+.ipynb_checkpoints/
+
+# ---------------- STREAMLIT ----------------
+.streamlit/
+
+# ---------------- VS CODE ----------------
+.vscode/
+
+# ---------------- OS FILES ----------------
+.DS_Store
+Thumbs.db
+
+# ---------------- LOG FILES ----------------
+*.log
